@@ -36,7 +36,7 @@ app.use("/api/contact", contactRoute);
 app.use("/api", scanRoutes);
 
 // Mount spam routes at /api/spam
-app.use('/api/spam', spamRoute)
+app.use("/api/spam", spamRoute)
 
 const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
